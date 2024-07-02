@@ -27,7 +27,7 @@ function calcular() {
 
         } else {
             // Contagem regressiva
-            for (i = inicio; i > fim; i -= passos){
+            for (i = inicio; i >= fim; i -= passos){
                 resul.innerHTML += `${i} \u{1f449}` // Esse código é o emoji de dedo apontando
             }
             resul.innerHTML += `\u{1f3c1}`  // Esse código é o emoji de bandeira   
